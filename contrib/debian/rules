@@ -1,9 +1,9 @@
 #!/usr/bin/make -f
 # -*- mode: makefile; coding: utf-8 -*-
 
-#DEB_MAKE_CHECK_TARGET = test_raptoreum
-#build/raptoreumd::
-#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_raptoreum)
+#DEB_MAKE_CHECK_TARGET = test_menelik
+#build/menelikd::
+#	$(if $(filter nocheck,$(DEB_BUILD_OPTIONS)),,src/test_menelik)
 
 %:
 	dh --with bash-completion $@

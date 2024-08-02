@@ -30,7 +30,7 @@ Homepage: https://www.menelik.org/
 Vcs-Git: git://github.com/raptor3um/menelik.git
 Vcs-Browser: https://github.com/raptor3um/menelik
 
-Package: raptoreumd
+Package: menelikd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -40,7 +40,7 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Menelik Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides the daemon, raptoreumd, and the CLI tool
+ This package provides the daemon, menelikd, and the CLI tool
  menelik-cli to interact with the daemon.
 
 Package: menelik-qt
