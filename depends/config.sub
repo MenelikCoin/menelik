@@ -1,8 +1,8 @@
 #! /bin/sh
 # Configuration validation subroutine script.
-#   Copyright 1992-2024 Free Software Foundation, Inc.
+#   Copyright 1992-2018 Free Software Foundation, Inc.
 
-timestamp='2024-07-15'
+timestamp='2018-07-03'
 
 # This file is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by
