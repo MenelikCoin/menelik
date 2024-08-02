@@ -1,8 +1,8 @@
-Source: raptoreum
+Source: menelik
 Section: utils
 Priority: optional
-Maintainer: Holger Schinzel <holger@raptoreum.org>
-Uploaders: Holger Schinzel <holger@raptoreum.org>
+Maintainer: Holger Schinzel <holger@menelik.org>
+Uploaders: Holger Schinzel <holger@menelik.org>
 Build-Depends: debhelper,
  devscripts,
  automake,
@@ -26,45 +26,45 @@ Build-Depends: debhelper,
  python,
  libzmq3-dev
 Standards-Version: 3.9.2
-Homepage: https://www.raptoreum.org/
-Vcs-Git: git://github.com/raptor3um/raptoreum.git
-Vcs-Browser: https://github.com/raptor3um/raptoreum
+Homepage: https://www.menelik.org/
+Vcs-Git: git://github.com/raptor3um/menelik.git
+Vcs-Browser: https://github.com/raptor3um/menelik
 
 Package: raptoreumd
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
- Raptoreum is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. Raptoreum uses peer-to-peer
+ Menelik is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Menelik uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Raptoreum Core
+ and issuing money are carried out collectively by the network. Menelik Core
  is the name of the open source software which enables the use of this currency.
  .
  This package provides the daemon, raptoreumd, and the CLI tool
- raptoreum-cli to interact with the daemon.
+ menelik-cli to interact with the daemon.
 
-Package: raptoreum-qt
+Package: menelik-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI
- Raptoreum is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. Raptoreum uses peer-to-peer
+ Menelik is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Menelik uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Raptoreum Core
+ and issuing money are carried out collectively by the network. Menelik Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides Raptoreum-Qt, a GUI for Raptoreum based on Qt.
+ This package provides Menelik-Qt, a GUI for Menelik based on Qt.
 
-Package: raptoreum-tx
+Package: menelik-tx
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer digital currency - standalone transaction tool
- Raptoreum is an experimental new digital currency that enables instant, private
- payments to anyone, anywhere in the world. Raptoreum uses peer-to-peer
+ Menelik is an experimental new digital currency that enables instant, private
+ payments to anyone, anywhere in the world. Menelik uses peer-to-peer
  technology to operate with no central authority: managing transactions
- and issuing money are carried out collectively by the network. Raptoreum Core
+ and issuing money are carried out collectively by the network. Menelik Core
  is the name of the open source software which enables the use of this currency.
  .
- This package provides raptoreum-tx, a command-line transaction creation
- tool which can be used without a raptoreum daemon.  Some means of
+ This package provides menelik-tx, a command-line transaction creation
+ tool which can be used without a menelik daemon.  Some means of
  exchanging minimal transaction data with peers is still required.
