@@ -653,8 +653,8 @@ void SetupServerArgs()
 
 std::string LicenseInfo()
 {
-    const std::string URL_SOURCE_CODE = "<https://github.com/Raptor3um/menelik>";
-    const std::string URL_WEBSITE = "<https://menelik.com>";
+    const std::string URL_SOURCE_CODE = "<https://github.com/MenelikCoin/menelik>";
+    const std::string URL_WEBSITE = "<https://menelik.fun>";
 
     return CopyrightHolders(_("Copyright (C)"), 2014, COPYRIGHT_YEAR) + "\n" +
            "\n" +
